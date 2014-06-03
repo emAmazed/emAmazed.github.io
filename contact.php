@@ -85,8 +85,7 @@
         </div>
         
         <div class="col-lg-12">
-          <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.827691382144!2d-71.1231929!3d42.34619689999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e379c050da0e99%3A0x44b3b812f582082e!2sStedman+St!5e0!3m2!1sen!2sus!4v1401787942497"></iframe>
         </div>
 
       </div><!-- /.row -->
@@ -134,13 +133,13 @@
 
         <div class="col-sm-4">
           <h3>emAmazed.com</h3>
-          <h4>A Startup Client Data Company</h4>
+          <h4>A Client Data Company</h4>
           <p>
-            5555 44th Street N.<br>
-            Bootstrapville, CA 32323<br>
+            Beals Street<br>
+            Brookline, MA <br>
           </p>
-          <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (555) 984-3600</p>
-          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a></p>
+          <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (888) 888-8888</p>
+          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:feedback@emAmazed.com">feedback@emAmazed.com</a></p>
           <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
           <ul class="list-unstyled list-inline list-social-icons">
             <li class="tooltip-social facebook-link"><a href="#facebook-page" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
@@ -161,7 +160,7 @@
       <footer>
         <div class="row">
           <div class="col-lg-12">
-            <p>Copyright &copy; Company 2013</p>
+            <p>Copyright &copy; emAmazed.com 2014</p>
           </div>
         </div>
       </footer>
