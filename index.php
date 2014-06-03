@@ -29,7 +29,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                <a class="navbar-brand" href="index.html">emAmazed.com</a>
+                <a class="navbar-brand" href="index.php">emAmazed.com</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -299,25 +299,8 @@
     </div>
     <!-- /.container -->
 
-    <div class="container">
-
-        <hr>
-
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; emAmazed.com 2014</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
+    <!-- include footer -->
+    <?php include_once('footer.html'); ?>
 
 </body>
 
