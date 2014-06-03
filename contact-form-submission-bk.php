@@ -29,7 +29,7 @@ elseif (empty($message))
 		
 // check if an error was found - if there was, send the user back to the form
 if (isset($error)) {
-    header('Location: http://www.emAmazed.com/contact.html?e='.urlencode($error)); exit;
+    header('Location: http://www.emAmazed.com/thankyou.html'); exit;
 }
 
 $headers = "From: $email_address\r\n"; 
@@ -43,9 +43,9 @@ $email_content .= "Message:\n\n$message";
 	
 // send the email
 //ENTER YOUR INFORMATION BELOW FOR THE FORM TO WORK!
-mail ('emilie.ying@ascendlearning.com', 'YOUR WEBSITE NAME - Contact Form Submission', $email_content, $headers);
+mail ('emilie.ying@ascendlearning.com', 'emAmazed.com - Contact', $email_content, $headers);
 	
 // send the user back to the form
-header('Location: http://www.emAmazed.com/contact.html?s='.urlencode('Thank you for your message.')); exit;
+header('Location: http://www.emAmazed.com/thankyou.html'); exit;
 
 ?>
