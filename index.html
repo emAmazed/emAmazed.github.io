@@ -154,34 +154,22 @@
 
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="images/port-abb.png">
-                    </a>
+                    <img class="img-responsive img-home-portfolio" src="images/port-abb.png">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="images/port-jpm.png">
-                    </a>
+                    <img class="img-responsive img-home-portfolio" src="images/port-jpm.png">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="images/port-va529.png">
-                    </a>
+                    <img class="img-responsive img-home-portfolio" src="images/port-va529.png">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="images/port-visteon.png">
-                    </a>
+                    <img class="img-responsive img-home-portfolio" src="images/port-visteon.png">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="images/port-pto.png">
-                    </a>
+                    <img class="img-responsive img-home-portfolio" src="images/port-pto.png">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="images/port-u.png">
-                    </a>
+                    <img class="img-responsive img-home-portfolio" src="images/port-u.png">
                 </div>
             </div>
             <!-- /.row -->
@@ -229,6 +217,14 @@
 		<script src="js/jquery-1.10.2.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/modern-business.js"></script>
+    <script src="js/bootbox.min.js"></script>
+		<script>
+      $(document).on("click", ".alert", function(e) {
+        bootbox.alert("hello", function() {
+          console.log("Alert call");
+				});
+			});
+		</script>
 
 		<script>
   	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
