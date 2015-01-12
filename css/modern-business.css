@@ -17,6 +17,16 @@ body {
  /* body padding for fixed top nav */
 }
 
+p {
+  font-size: 18px;
+  color: #606060;
+}
+
+.em-hilite {
+  font-style: italic;
+  color: #428BCA;
+}
+
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -104,7 +114,7 @@ body {
 
 /* Pricing Page Styles */
 .price {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .price-cents {
