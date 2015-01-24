@@ -27,7 +27,6 @@ p {
   color: #428BCA;
 }
 
-.img-home-portfolio,
 .img-customer,
 .portfolio-item {
   margin-bottom: 30px;
@@ -125,6 +124,10 @@ p {
 .price-month {
   font-size: 35%;
   font-style: italic;
+}
+
+.popover{
+  max-width:600px;
 }
 
 /* Footer Styles */
